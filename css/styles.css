@@ -61,4 +61,21 @@ padding: 5px;
     display: inline-block;
     width: fit-content;
    background-color:#BBAA99;
+   padding: 30px;
+   margin-left: 2px;
+   border: 2px solid #6F5F48;
+   text-align: center;
+}
+.vertical a{
+    font-size: 17px;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none; 
+    color:#6F5F48;     
+      font-weight: bold;
+      line-height: 3.5;
+      text-decoration: underline; 
+}
+.logo{
+    display: block;
+    margin: 0 auto;
 }
