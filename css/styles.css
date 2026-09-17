@@ -109,7 +109,7 @@ footer ul{
 
 .secciones-productos {
     display: flex;
-    flex-wrap: nonwrap;
+    flex-wrap: nowrap;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
