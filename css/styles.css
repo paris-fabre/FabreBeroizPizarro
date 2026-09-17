@@ -56,7 +56,6 @@ padding: 5px;
     border-radius: 4px;
 }
 .img{
-    
     height: 300px;
 }
 .vertical{
@@ -106,4 +105,12 @@ footer ul{
     border: 2px solid #6F5F48;
     box-sizing: border-box;
     height: 80px;
+}
+
+.secciones-productos {
+    display: flex;
+    flex-wrap: nonwrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
 }
