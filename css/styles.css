@@ -9,19 +9,24 @@ ul,ol,li {
 a {
   text-decoration: none;
 }
+.horizontal {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
 .horizontal ul{
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-justify-content:flex-end; 
-margin-right: 2px;
-gap: 50px;
-background-color: #BBAA99;
-padding: 6px 14px;
-border-radius: 4px; 
-border: #6F5F48 solid 2px;
-margin-left: 2px;
-
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    background-color: #BBAA99;
+    padding: 6px 14px;
+    border: #6F5F48 solid 2px;
+    width: 100%;
+}
+.horizontal li {
+    margin-left: 40px;
 }
 .horizontal a {
     font-size: 22px;
@@ -34,8 +39,8 @@ margin-left: 2px;
     display: flex;
     justify-content:flex-end;
     gap: 5px;
-    margin-top: 30px;
-    margin-right: 8px;
+    margin-top: 20px;
+    margin-right: 10px;
     float: right;
 
 }
@@ -56,15 +61,23 @@ padding: 5px;
     border-radius: 4px;
 }
 .img{
-    height: 300px;
+    width: 220px;
+}
+.aleatorio img{
+    width: 220px;
+}
+.layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 .vertical{
-    float: left;
+    width: 220px;
 }
 
 .vertical ul{
-    display: inline-block;
-    width: fit-content;
+    display: block;
+    width: 100%;
    background-color:#BBAA99;
    padding: 30px;
    margin-left: 2px;
@@ -109,8 +122,15 @@ footer ul{
 
 .secciones-productos {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
+    width: 900px;
+}
+.mas-vendidos{
+    width: 46%;
+}
+.aleatorio{
+    width: 46%;
 }
