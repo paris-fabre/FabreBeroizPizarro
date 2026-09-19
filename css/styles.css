@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
 ul,ol,li {
     list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
@@ -28,12 +30,13 @@ a {
 .horizontal li {
     margin-left: 40px;
 }
+
 .horizontal a {
     font-size: 22px;
-      font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none; 
     color:#6F5F48;     
-      font-weight: bold;
+    font-weight: bold;
 }
 .buscador-form {
     display: flex;
@@ -44,14 +47,15 @@ a {
     float: right;
 
 }
+
 .buscador-input{
-padding: 5px;
+    padding: 5px;
     border: 2px solid #6F5F48;
     border-radius: 4px;
     color: #6F5F48;
     width: 300px;
     height: 30px;
-    }
+}
 
 .buscador-boton{
     padding: 5px 10px;
@@ -60,17 +64,18 @@ padding: 5px;
     border: 2px solid #6F5F48;
     border-radius: 4px;
 }
-.img{
-    width: 220px;
-}
+
 .aleatorio img{
     width: 220px;
 }
+
 .layout{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    width: 100%;
 }
+
 .vertical{
     width: 220px;
 }
@@ -85,6 +90,7 @@ padding: 5px;
    text-align: center;
    margin-top: 30px;
 }
+
 .vertical a{
     font-size: 17px;
       font-family:Georgia, 'Times New Roman', Times, serif;
@@ -122,15 +128,38 @@ footer ul{
 
 .secciones-productos {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-    width: 900px;
+    gap: 40px;
+    padding: 20px 20px;
 }
-.mas-vendidos{
-    width: 46%;
+
+.producto {
+    text-align: center;
+    padding: 30px;
+    line-height: 25px;
 }
-.aleatorio{
-    width: 46%;
+
+.producto a{
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 20px;
+    background-color:#BBAA99;
+    color: #6F5F48;
+    font-weight: bold;
+}
+
+.secciones-productos h2{
+    text-align: center;
+    color: #6F5F48;
+}
+
+.imagen {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.mas-vendidos {
+    display: block
 }
