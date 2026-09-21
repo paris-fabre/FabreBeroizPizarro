@@ -243,13 +243,14 @@ footer ul{
 .mascarilla h2{
     font-size: 50px;
     background-color: #6F5F48;
-       color:azure;
-           font-weight: normal;
-           padding: 5px ;
-   
+ color:azure;
+   font-weight: normal;
+      padding: 5px ;
+      border: #BBAA99 solid 2px;  
 }
 .mascarilla h3{
     font-size: 30px;
+        color: #6F5F48;
 }
 .mascarilla h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
