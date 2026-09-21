@@ -197,3 +197,36 @@ footer ul{
     color: #6F5F48;
     font-weight: bold;
 }
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    flex: 1;
+}
+.register form a{
+    display: inline-block;
+    padding: 8px 20px;
+    color: #6F5F48;
+    text-align: center;
+}
+.register form button {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 20px;
+    background-color:#BBAA99;
+    color: #6F5F48;
+    font-weight: bold;
+}
+.register form h2 {
+    text-align: center;
+}
+.register form {
+    display: flex;
+    flex-direction: column;
+    color:#6F5F48;
+    border: 2px solid #6F5F48;
+    padding: 40px;
+    gap: 15px;
+    width: 450px;
+}
