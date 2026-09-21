@@ -97,13 +97,13 @@ a {
     text-decoration: none; 
     color:#6F5F48;     
       font-weight: bold;
-      line-height: 2.5;
+      line-height: 8.5;
 }
 
 .logo{
     display: block;
     margin: 0 auto;
-    width: 450px;
+    width: 550px;
     height: auto;
 }
 
