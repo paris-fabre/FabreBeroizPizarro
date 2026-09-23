@@ -40,8 +40,7 @@ a {
 
 .horizontal a {
     font-size: 22px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
     color:#6F5F48;     
     font-weight: bold;
 }
@@ -87,19 +86,17 @@ a {
 
 .vertical ul{
     display: block;
-    width: 100%;
-   background-color:#BBAA99;
-   padding: 30px;
-   margin-left: 2px;
-   border: 2px solid #6F5F48;
-   text-align: center;
-   margin-top: 20px;
+    background-color:#BBAA99;
+    padding: 30px;
+    margin-left: 2px;
+    border: 2px solid #6F5F48;
+    text-align: center;
+    margin-top: 20px;
 }
 
 .vertical a{
     font-size: 17px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-decoration: none; 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
     color:#6F5F48;     
     font-weight: bold;
     line-height: 70px;
@@ -131,7 +128,6 @@ footer ul{
     color:#6F5F48;
     font-weight: bold;
     border: 2px solid #6F5F48;
-    box-sizing: border-box;
     height: 80px;
 }
 
@@ -174,12 +170,8 @@ footer ul{
 
 .imagen {
     height: 200px;
-    width: 200px;
+    width: 220px;
     object-fit: contain;
-}
-
-.mas-vendidos {
-    display: block
 }
 
 .login {
@@ -393,7 +385,6 @@ footer ul{
 }
 
 .resenas article {
-    border: 2px solid #6F5F48;
     background-color: #6F5F48;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -421,9 +412,7 @@ footer ul{
     padding: 5px ;
     text-align: center;
 }
-.imagen {
-    width: 220px;
-}
+
 
 
 
