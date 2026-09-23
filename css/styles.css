@@ -8,15 +8,21 @@ ul,ol,li {
     list-style-type: none;
 }
 
+body {
+    background-color: #fcf5ec;
+}
+
 a {
   text-decoration: none;
 }
+
 .horizontal {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     width: 100%;
 }
+
 .horizontal ul{
     display: flex;
     flex-direction: row;
@@ -27,6 +33,7 @@ a {
     border: #6F5F48 solid 2px;
     width: 100%;
 }
+
 .horizontal li {
     margin-left: 40px;
 }
@@ -44,8 +51,6 @@ a {
     gap: 5px;
     margin-top: 20px;
     margin-right: 10px;
-    float: right;
-
 }
 
 .buscador-input{
@@ -88,23 +93,27 @@ a {
    margin-left: 2px;
    border: 2px solid #6F5F48;
    text-align: center;
-   margin-top: 30px;
+   margin-top: 20px;
 }
 
 .vertical a{
     font-size: 17px;
-      font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     text-decoration: none; 
     color:#6F5F48;     
-      font-weight: bold;
-      line-height: 8.5;
+    font-weight: bold;
+    line-height: 70px;
 }
 
 .logo{
     display: block;
     margin: 0 auto;
-    width: 700px;
+    width: 500px;
     height: auto;
+}
+
+.logo-contenedor {
+    background-color: white;
 }
 
 footer {
@@ -130,14 +139,19 @@ footer ul{
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    gap: 40px;
-    padding: 20px 20px;
+    gap: 80px;
+    padding: 20px 50px;
 }
 
 .producto {
     text-align: center;
     padding: 30px;
     line-height: 25px;
+    background-color: white;
+    border: 2px solid #BBAA99;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 400px;
 }
 
 .producto a{
@@ -150,8 +164,12 @@ footer ul{
 }
 
 .secciones-productos h2{
-    text-align: center;
+    background-color: #BBAA99;
+    padding: 8px 20px;
+    border: 2px solid #6F5F48;
     color: #6F5F48;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .imagen {
@@ -179,10 +197,13 @@ footer ul{
     padding: 40px;
     gap: 15px;
     width: 450px;
+    background-color: white;
 }
+
 .login form h2 {
     text-align: center;
 }
+
 .login form a{
     display: inline-block;
     padding: 8px 20px;
@@ -229,19 +250,19 @@ footer ul{
     padding: 40px;
     gap: 15px;
     width: 450px;
+    background-color: white;
 }
 .mascarilla {
-    padding: 70px;
+    padding: 20px 70px;
     text-align: center;
-   
 }
 
 .mascarilla img {
-    width: 700px;
+    width: 600px;
 }
 .mascarilla .precio {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
     color: #6F5F48;
     margin-top: 40px;
@@ -255,26 +276,27 @@ footer ul{
     margin: 20px auto 0;
 }
 .mascarilla h2{
-    font-size: 50px;
+    font-size: 40px;
     background-color: #6F5F48;
- color:azure;
-   font-weight: normal;
-      padding: 5px ;
-      border: #BBAA99 solid 2px;  
+    color:azure;
+    font-weight: normal;
+    padding: 5px ;
+    border: #BBAA99 solid 2px;  
 }
 .mascarilla h3{
-    font-size: 30px;
-        color: #6F5F48;
+    font-size: 25px;
+    margin: 20px;
+    color: #6F5F48;
 }
 .mascarilla h4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 27px;
     margin: 8px;
-       margin-top: 100px;
-       background-color:#BBAA99;
-border: #6F5F48 solid 2px;
-       color:#6F5F48;
-           padding: 5px ;
+    margin-top: 100px;
+    background-color:#BBAA99;
+    border: #6F5F48 solid 2px;
+    color:#6F5F48;
+    padding: 5px ;
 }
 .mascarilla h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -291,25 +313,67 @@ border: #6F5F48 solid 2px;
    
 }
 .mascarilla li{
-     border: #6F5F48 dotted 2px;
-     padding: 25px 30px;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: 20px;
-        background-color: #6F5F48;
-        color: azure;
+    border: #6F5F48 dotted 2px;
+    padding: 25px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #6F5F48;
+    color: azure;
 }
 .limpieza h2{
-     background-color: #BBAA99;
+    background-color: #BBAA99;
     padding: 6px 14px;
     border: #6F5F48 solid 2px;
     color: #6F5F48;
-    text-align: center; 
+    text-align: center;
+    margin-bottom: 20px; 
 }
+
+.hidratacion h2 {
+    background-color: #BBAA99;
+    padding: 6px 14px;
+    border: #6F5F48 solid 2px;
+    color: #6F5F48;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tratamiento h2 {
+    background-color: #BBAA99;
+    padding: 6px 14px;
+    border: #6F5F48 solid 2px;
+    color: #6F5F48;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.mascarillas h2 {
+    background-color: #BBAA99;
+    padding: 6px 14px;
+    border: #6F5F48 solid 2px;
+    color: #6F5F48;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.categoria {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.categoria h1 {
+    color: #6F5F48;
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 40px;
+}
+
+
 .contenido {
     flex: 1;
     display: flex;
     flex-direction: column;
 }
+
 .resenas {
     padding: 0 70px 40px;
     display: flex;
@@ -320,7 +384,7 @@ border: #6F5F48 solid 2px;
 
 .resenas article {
     border: 2px solid #6F5F48;
-      background-color: #6F5F48;
+    background-color: #6F5F48;
     padding: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: azure;
@@ -340,13 +404,16 @@ border: #6F5F48 solid 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 27px;
     margin: 8px;
-       margin-top: 10px;
-       background-color:#BBAA99;
-border: #6F5F48 solid 2px;
-       color:#6F5F48;
-           padding: 5px ;
-           text-align: center;
+    margin-top: 10px;
+    background-color:#BBAA99;
+    border: #6F5F48 solid 2px;
+    color:#6F5F48;
+    padding: 5px ;
+    text-align: center;
 }
 .imagen {
     width: 220px;
 }
+
+
+
