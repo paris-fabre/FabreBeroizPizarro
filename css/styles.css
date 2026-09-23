@@ -412,7 +412,66 @@ footer ul{
     padding: 5px ;
     text-align: center;
 }
+@media (max-width: 768px) {
+.logo {
+    width: 250px;
+}
+.horizontal a {
+    font-size: 16px;
+}
+.horizontal li {
+    margin-left: 15px;
+}
+.buscador-input {
+    width: 180px;
+}
+.layout {
+    flex-direction: column;
+}
+.vertical {
+    width: 100%;
+}
+.secciones-productos {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 15px;
+}
+.producto {
+    height: auto;
+}
+.login form {
+width: 90%;
+}
+.register form {
+    width: 90%;
+}
+.mascarilla {
+    padding: 20px 15px;
+}
+.mascarilla {
+padding: 20px 15px;
+}
+.mascarilla img {
+    width: 100%;
+}
+.mascarilla ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.resenas {
+    padding: 0 15px 40px;
+}
+.categoria {
+    padding: 0 15px;
+}
+footer ul {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 10px 0;
+}
 
+}
 
 
 
