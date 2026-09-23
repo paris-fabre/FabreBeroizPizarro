@@ -284,3 +284,10 @@ border: #6F5F48 solid 2px;
         background-color: #6F5F48;
         color: azure;
 }
+.limpieza h2{
+     background-color: #BBAA99;
+    padding: 6px 14px;
+    border: #6F5F48 solid 2px;
+    color: #6F5F48;
+    text-align: center; 
+}
