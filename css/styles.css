@@ -231,7 +231,6 @@ footer ul{
     width: 450px;
 }
 .mascarilla {
-    flex: 1;
     padding: 70px;
     text-align: center;
    
@@ -290,4 +289,46 @@ border: #6F5F48 solid 2px;
     border: #6F5F48 solid 2px;
     color: #6F5F48;
     text-align: center; 
+}
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.resenas {
+    padding: 0 70px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.resenas article {
+    border: 2px solid #6F5F48;
+      background-color: #6F5F48;
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    margin-top: 30px;
+}
+
+.resenas span {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.resenas .rating {
+    margin: 8px 0;
+    font-size: 20px;
+}
+.resenas h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    margin: 8px;
+       margin-top: 10px;
+       background-color:#BBAA99;
+border: #6F5F48 solid 2px;
+       color:#6F5F48;
+           padding: 5px ;
+           text-align: center;
 }
