@@ -92,6 +92,7 @@ a {
     border: 2px solid #6F5F48;
     text-align: center;
     margin-top: 20px;
+     border-radius: 16px;
 }
 
 .vertical a{
