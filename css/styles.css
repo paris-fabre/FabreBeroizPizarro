@@ -421,6 +421,29 @@ footer ul{
     padding: 5px ;
     text-align: center;
 }
+.resultados {
+    flex: 1;
+    padding: 20px;
+
+}
+.resultados h2{
+    color: #6F5F48;
+    text-align: center;
+    padding: 20px;
+}
+.resultados-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.sin-resultados {
+    color: #6F5F48;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: bold;
+}
 @media (max-width: 768px) {
 .logo {
     width: 250px;
