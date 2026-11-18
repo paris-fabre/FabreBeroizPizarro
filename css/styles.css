@@ -506,7 +506,10 @@ footer ul {
     height: auto;
     padding: 10px 0;
 }
-
+.buscador-error {
+    color: red;
+    font-size: 14px;
+}
 }
 
 

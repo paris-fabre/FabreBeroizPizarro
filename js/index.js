@@ -62,3 +62,18 @@ fetch("https://dummyjson.com/products/category/groceries")
     .catch(function(error) {
         console.log("El error es: " + error);
     })
+let formBuscador = document.querySelector(".buscador-form");
+let campoBuscar = document.querySelector(".buscador-input");
+let errorBuscador = document.querySelector(".buscador-error");
+
+formBuscador.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    if (campoBuscar.value == "") {
+        errorBuscador.innerText = "El campo de búsqueda no puede estar vacío";
+    } else if (campoBuscar.value.length < 3) {
+        errorBuscador.innerText = "La búsqueda debe tener al menos 3 caracteres";
+    } else {
+        this.submit();
+    }
+});
