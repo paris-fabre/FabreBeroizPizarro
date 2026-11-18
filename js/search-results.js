@@ -1,3 +1,37 @@
+let queryString = location.search;
+let queryStringObj = new URLSearchParams(queryString);
+let busqueda = queryStringObj.get("search");
+
+let tituloResultados = document.querySelector(".titulo-resultados");
+let listaResultados = document.querySelector(".resultados-lista");
+let sinResultados = document.querySelector(".sin-resultados");
+
+tituloResultados.innerText = `Resultados de busqueda para: ${busqueda}`;
+
+fetch(`https://dummyjson.com/products/search?q=${busqueda}`)
+.then(function(response) {
+    return response.json();
+})
+.then(function(data) {
+    if (data.products.length ==0) {
+        sinResultados.innerText =` No hay resultados para el termino: ${busqueda}`;
+    } else {
+        for (let i = 0; i < data.products.length; i++) {
+            let producto = data.products[i];
+            listaResultados.innerHTML += `
+                <article class="producto">
+                    <img class="imagen" src="${producto.thumbnail}" alt="${producto.title}">
+                     <h3>${producto.title}</h3>
+                     <p>${producto.description}</p>
+                    <h4>Precio: ${producto.price} USD</h4>
+                     <a href="./product.html?id=${producto.id}">Ver detalle</a>
+                </article>`;
+       }
+}
+})
+.catch(function(error) {
+    console.log("El error es: " + error);
+});
 let formBuscador = document.querySelector(".buscador-form");
 let campoBuscar = document.querySelector(".buscador-input");
 let errorBuscador = document.querySelector(".buscador-error");
