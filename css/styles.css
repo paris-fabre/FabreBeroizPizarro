@@ -44,6 +44,12 @@ a {
     color:#6F5F48;     
     font-weight: bold;
 }
+.horizontal a, .item-saludo {
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    color:#6F5F48;     
+    font-weight: bold;
+}
 .buscador-form {
     display: flex;
     justify-content:flex-end;
